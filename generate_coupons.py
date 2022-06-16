@@ -19,4 +19,5 @@ def generate_coupons(n):
     return coupons
 
 
-print(generate_coupons(200))
+if __name__ == '__main__':
+    generate_coupons(200)
