@@ -12,7 +12,7 @@ import xlwt
 with open('./resource/student.txt') as f:
     stu_dic = json.loads(f.read())  # 字符串转为字典
     workbook = xlwt.Workbook()  # 打开Excel
-    worksheet = workbook.add_sheet('sheet1')  # 创建sheet
+    worksheet = workbook.add_sheet('student')  # 创建sheet
     a, b = 0, 0
     for x in stu_dic:
         worksheet.write(a, 0, x)  # 写入序号
