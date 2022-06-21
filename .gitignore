@@ -240,3 +240,4 @@ fabric.properties
 *.ttf
 *.rdb
 resource
+.DS_Store
